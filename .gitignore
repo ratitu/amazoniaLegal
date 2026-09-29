@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+.venv/
+
+# Unclipped source data (regenerate clipped/ with: python clip_focos.py)
+raw/
+
+# Cached render artifacts (regenerate with: python make_gif.py --force)
+frames/
+focos_timelapse.gif
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Tooling caches (.codegraph is a symlink to a path outside the repo)
+.codegraph
+.omo/
+
+# Logs
+*.log
+verify.log
+gifbuild.log
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
